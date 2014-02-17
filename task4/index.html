@@ -1,0 +1,31 @@
+<!DOCTYPE html >
+<html class="no-js">
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
+
+<script  type="text/javascript" data-main="\/js\main.js" src="js/libs/require.js"></script>
+
+
+</head>
+<body>
+	<div class="content"></div>
+	<div class="content1"></div>	
+	<script type="text/x-handlebars-template" id="template">
+	 <h3>{{question}}</h3>
+		{{#each items}}
+			<label class="answer"><input type="radio" data-answer="{{id}}">{{value}}</label><br>
+		{{/each}}
+	<span>{{result}}</span>
+	</script>
+	
+	
+
+	
+		
+
+
+</body>
+</html>
