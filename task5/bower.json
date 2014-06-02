@@ -1,0 +1,12 @@
+{
+  "name": "task5",
+  "version": "1.0.5",
+  "authors": [
+    "tatsiana27 <tatsiana.sauk@gmail.com>"
+  ],
+  "description": "Survey",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}
